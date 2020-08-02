@@ -1,0 +1,7 @@
+package com.arzds.security;
+
+import javax.ws.rs.container.ContainerRequestFilter;
+
+public class SecurityFilterImpl implements ContainerRequestFilter {
+
+}

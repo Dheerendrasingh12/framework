@@ -1,0 +1,15 @@
+package com.arzds.consumer;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.WebResource;
+
+public class QueryConsumer {
+	public static void main(String[] args) {
+		String url = "http://localhost:9080/ArzDs_WB_Query/home/show?name=Dheerendra&id=12";
+		Client client = Client.create();
+		WebResource resource = client.resource(url);
+		resource = resource.queryParam("name", "ArzDs");
+		resource = resource.queryParam("id", 12);
+
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Product.java&apos; to &apos;ArzDs_Jersey_ANntoation/src/main/java/com.arzds&apos;&#x0D;&#x0A;- Original project: &apos;ArzDsJerseyExamplEx3&apos;&#x0D;&#x0A;- Destination element: &apos;ArzDs_Jersey_ANntoation/src/main/java/com.arzds&apos;&#x0D;&#x0A;- Original element: &apos;com.arzds.model.Product.java&apos;" description="Copy compilation unit" destination="=ArzDs_Jersey_ANntoation/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.arzds" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.arzds.model{Product.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1586983102442" units="1" version="1.0"/>
+</session>

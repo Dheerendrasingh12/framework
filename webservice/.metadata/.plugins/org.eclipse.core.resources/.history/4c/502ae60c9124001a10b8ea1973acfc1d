@@ -1,0 +1,11 @@
+package com.arzds.type;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("home")
+public class MediaTypeCtrl {
+@GET
+@Path("/msg")
+
+}

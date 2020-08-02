@@ -1,0 +1,16 @@
+package com.arzds.interceptor;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+public class ProductServiceInterceptorImpl extends WebMvcConfigurerAdapter {
+	@Autowired
+	ProductServiceHandlerImpl handlerImpl;
+
+	public void addInterceptor(InterceptorRegistry registry) {
+		registry.addInterceptor(handlerImpl);
+	}
+
+}

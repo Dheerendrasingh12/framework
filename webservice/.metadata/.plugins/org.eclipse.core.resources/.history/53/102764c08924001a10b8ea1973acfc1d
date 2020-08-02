@@ -1,0 +1,19 @@
+package com.arzds.mediatype;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+@Path("/type")
+public class MediaType {
+	@GET
+	@Path("/show")
+	@Produces("application/json")
+	public Employee show() {
+		Employee employee = new Employee();
+		employee.setEmpId(12);
+		employee.setEmpName("DS");
+		
+		return employee;
+	}
+}

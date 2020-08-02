@@ -1,0 +1,12 @@
+127.0.0.1 - - [16/Apr/2020:01:47:57 +0530] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [16/Apr/2020:01:48:51 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [16/Apr/2020:01:48:52 +0530] "GET /ArzDs_Jersey2.X/ HTTP/1.1" 404 729
+0:0:0:0:0:0:0:1 - - [16/Apr/2020:01:49:28 +0530] "GET /ArzDs_Jersey2.X/webapi/home/msg HTTP/1.1" 404 713
+127.0.0.1 - - [16/Apr/2020:01:50:29 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [16/Apr/2020:01:50:34 +0530] "GET /ArzDs_Jersey2.X/webapi/home/msg HTTP/1.1" 200 11
+127.0.0.1 - - [16/Apr/2020:01:57:55 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [16/Apr/2020:01:57:56 +0530] "GET /ArzDs_Jersey_BeanParam/ HTTP/1.1" 404 736
+0:0:0:0:0:0:0:1 - - [16/Apr/2020:01:58:22 +0530] "GET /ArzDs_Jersey_BeanParam/webapi/home/msg?empId=12&empName=ArzDs&empSal=5.9 HTTP/1.1" 200 46
+127.0.0.1 - - [16/Apr/2020:02:13:21 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [16/Apr/2020:02:13:22 +0530] "GET /ArzDs_Jersey_ANntoation/ HTTP/1.1" 404 737
+0:0:0:0:0:0:0:1 - - [16/Apr/2020:02:13:45 +0530] "GET /ArzDs_Jersey_ANntoation/rest/home/msg/12/Iphone/74 HTTP/1.1" 200 14

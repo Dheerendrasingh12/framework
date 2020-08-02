@@ -1,0 +1,58 @@
+package com.arzds.security;
+
+import java.io.IOException;
+import java.lang.reflect.Method;
+import java.util.List;
+
+import javax.annotation.security.DenyAll;
+import javax.annotation.security.PermitAll;
+import javax.ws.rs.container.ContainerRequestContext;
+import javax.ws.rs.container.ContainerRequestFilter;
+import javax.ws.rs.container.ResourceInfo;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.HttpHeaders;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
+
+public class SecurityFilterImpl implements ContainerRequestFilter {
+	@Context
+	private ResourceInfo resource;
+	@Context
+	private HttpHeaders head;
+
+	@Override
+	public void filter(ContainerRequestContext requestContext) throws IOException {
+		// TODO Auto-generated method stub
+		Method method = resource.getResourceMethod();
+		if (!method.isAnnotationPresent(PermitAll.class)) {
+			if (method.isAnnotationPresent(DenyAll.class)) {
+				requestContext.abortWith(Response.ok("This Request can be processed").status(Status.FORBIDDEN).build());
+				return;
+			}
+			List<String> reqHeader = head.getRequestHeaders().get("Authorization");
+			if (reqHeader == null || reqHeader.isEmpty()) {
+				requestContext.abortWith(
+						Response.ok("Provider Authorization header is request").status(Status.UNAUTHORIZED).build());
+				return;
+			}
+			List<String> userDetails=
+
+		}
+	}
+
+	private boolean isValidUser(List<String> userDetails, List<String> roles) {
+		boolean flag = false;
+		if (userDetails != null && roles != null) {
+			if ("Arzds".equals(userDetails.get(0)) && "Arzds".equals(userDetails.get(1))
+					&& (roles.contains("ALLPERMIT") || roles.contains("ADMIN"))) {
+				flag = true;
+			} else if ("DsArz".equals(userDetails.get(0)) && "DsArz".equals(userDetails.get(1))
+					&& (roles.contains("ALLPERMIT") || roles.contains("love"))) {
+				flag = true;
+
+			}
+
+		}
+		return flag;
+	}
+}

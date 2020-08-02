@@ -1,0 +1,7 @@
+package com.arzds.consumer;
+
+public class QueryConsumer {
+	public static void main(String[] args) {
+
+	}
+}

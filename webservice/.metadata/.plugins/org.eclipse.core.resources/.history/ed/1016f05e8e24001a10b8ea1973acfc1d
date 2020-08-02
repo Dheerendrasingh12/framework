@@ -1,0 +1,20 @@
+package com.arzds.mediatype;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/type")
+public class MediaTypeCtrl {
+	@GET
+	@Path("/show")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Employee show() {
+		Employee e = new Employee();
+		e.setEmpId(12);
+		e.setEmpName("DS");
+
+		return e;
+	}
+}

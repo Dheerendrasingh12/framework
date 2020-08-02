@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;webpage&apos; to &apos;WebApp&apos;&#x0D;&#x0A;- Original project: &apos;ArzDsWebApp&apos;&#x0D;&#x0A;- Destination element: &apos;WebApp&apos;&#x0D;&#x0A;- Original element: &apos;webpage&apos;" description="Copy folder" element1="src/main/WebApp/webpage" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1577606121954" target="/ArzDsSubmissionForm/src/main/WebApp" units="0" version="1.0"/>
+</session>

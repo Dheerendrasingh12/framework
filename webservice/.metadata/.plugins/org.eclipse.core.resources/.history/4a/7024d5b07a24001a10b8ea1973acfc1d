@@ -1,0 +1,10 @@
+package com.arzds.mediatype;
+
+import javax.ws.rs.Path;
+
+@Path("type")
+public class MediaType {
+@GET
+@Path("/show")
+@Produces("application/json")
+}
