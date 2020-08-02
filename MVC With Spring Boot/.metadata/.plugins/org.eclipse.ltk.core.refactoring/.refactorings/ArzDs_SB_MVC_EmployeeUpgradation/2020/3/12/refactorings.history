@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ArzDs_SB_MVC_EmployeeUpgradation/src/main/webapp/WEB-INF/pages/empform.jsp&apos; to &apos;empForm.jsp&apos;" description="Rename resource &apos;empform.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/pages/empform.jsp" name="empForm.jsp" stamp="1584296339639" updateReferences="true"/>
+</session>
