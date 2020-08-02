@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="G:\Dheer\Documents\Hibernate\ArzDs_HB_LifeCycle\src\main\java\com\arzds\App.java"/>
+			<item value="G:\Dheer\Documents\Hibernate\ArzDs_HB_Sql\src\main\java\com\arzds\App.java"/>
+			<item value="G:\Dheer\Documents\Hibernate\ArzDs_HB_HQL"/>
+			<item value="G:\Dheer\Documents\Hibernate\ArzDs_HB_Cache_Query\src\main\java\com\arzds\App.java"/>
+			<item value="G:\Dheer\Documents\Hibernate\ArzDs_HB_Cache\src\main\java\com\arzds\model\Alien.java"/>
+			<item value="G:\Dheer\Documents\Hibernate\ArzDs_HB1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.arzds.ArzDs_HB_JPA"/>
+			<item value="com.arzds.ArzDs_HB_LifeCycle"/>
+			<item value="com.arzds"/>
+		</list>
+		<list key="groupId">
+			<item value="com.arzds"/>
+		</list>
+		<list key="artifactId">
+			<item value="ArzDs_HB_JPA"/>
+			<item value="ArzDs_HB_LifeCycle"/>
+			<item value="ArzDs_HB_Sql"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

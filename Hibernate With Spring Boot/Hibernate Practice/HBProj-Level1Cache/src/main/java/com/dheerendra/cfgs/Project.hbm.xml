@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate?Hibernate Mapping DTD//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.dheerendra.domain.ProjectDetails" table="Company_Projects">
+	<id name="PROJECTID" type="int" length="5">
+		<generator class="increment"/>
+	</id>
+	
+	<property name="PROJNAME" type="string" length="15"/>
+	<property name="CLIENT" type="string" length="15"/>
+	<property name="TEAM_SIZE" type="int" length="8"/>
+	<property name="STARTDATE" type="date" ></property>
+
+
+	</class>
+</hibernate-mapping> 

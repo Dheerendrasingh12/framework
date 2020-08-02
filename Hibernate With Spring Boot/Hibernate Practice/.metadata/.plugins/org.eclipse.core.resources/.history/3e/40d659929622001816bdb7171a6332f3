@@ -1,0 +1,10 @@
+package com.dheerendra.domain;
+
+public class EmpDetails
+
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

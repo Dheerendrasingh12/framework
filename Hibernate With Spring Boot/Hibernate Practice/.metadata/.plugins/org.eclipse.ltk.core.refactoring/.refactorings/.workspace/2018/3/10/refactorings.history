@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 15 resources" deleteContents="false" description="Delete 15 resources" element1="/CustomGenrator" element10="/HBProj3(DAO+DTO+BO)" element11="/HBProj6-DAODP" element12="/HBProjCustomeGenerator" element13="/HBProject_Insurance_Policy" element14="/HBProjString_CustomGen" element15="/Test" element2="/HB-Proj-One-2-Many-SetCollection" element3="/HBP3-Withouthibenate" element4="/HBPro_Programmatic_Approach" element5="/HBProj_hbm2ddl" element6="/HBProj-DAO" element7="/HBProj-InheritanceMapping-TPCH" element8="/HBProj-Level1Cache" element9="/HBProj-Talking2DB" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="15" stamp="1520487739807"/>
+</session>

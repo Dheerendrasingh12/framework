@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;EmpDetails.java&apos; to &apos;HBPro_Programmatic_Approach/src/com.dheerendra.domain&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Destination element: &apos;HBPro_Programmatic_Approach/src/com.dheerendra.domain&apos;&#x0D;&#x0A;- Original element: &apos;com.dheerendra.domain.EmpDetails.java&apos;" description="Copy compilation unit" destination="=HBPro_Programmatic_Approach/src&lt;com.dheerendra.domain" element1="/src&lt;com.dheerendra.domain{EmpDetails.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1511396006838" units="1" version="1.0"/>
+</session>

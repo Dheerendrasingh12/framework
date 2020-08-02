@@ -1,0 +1,9 @@
+package snippet;
+
+public class Snippet {
+	 <!DOCTYPE hibernate-configuration PUBLIC
+	 "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+	 "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+}
+

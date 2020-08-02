@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate?Hibernate Mapping DTD//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+  <hibernate-mapping>
+  <class name="com.dheerendra.bo.StudentBO" table="layered_student">
+  	<id name="sno"/>
+  	<property name="sname" type="string" length="20"/>
+  	<property name="total" type="int" length="5"/>
+  	<property name="avg" type="float" length="5"/>
+  	<property name="result" type="string" length="15"/>
+  
+  </class>
+  
+ </hibernate-mapping>

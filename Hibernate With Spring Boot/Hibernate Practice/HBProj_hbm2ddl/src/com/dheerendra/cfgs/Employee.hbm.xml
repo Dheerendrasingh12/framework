@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate?Hibernate Mapping DTD//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.dheerendra.domain.EmpDetails" table="EMPLOYEE">
+		<id name="no" column="EID"/>
+		<property name="fname" type="string">
+			<column name="FIRSTNAME" length="12" not-null="true"/>
+		</property>		 
+		<property name="lname" column="LASTNAME" length="12" type="string" not-null="true"/>
+		
+		<property name="mail" column="EMAIL" type="string" length="20" not-null="true"></property>
+	</class>
+
+</hibernate-mapping>

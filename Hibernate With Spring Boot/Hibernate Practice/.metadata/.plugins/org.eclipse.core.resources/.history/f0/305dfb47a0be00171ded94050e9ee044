@@ -1,0 +1,10 @@
+package com.dheerendra.test;
+
+public class DeleteObject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

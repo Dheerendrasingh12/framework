@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping
+  PUBLIC "-//Hibernate?Hibernate Mapping DTD//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.dheerendra.domain.LucyCoupon" table="LUCKYDRAW_COUPON">
+	<id name="no" column="CNO">
+	<generator class="com.dheerendra.generator.CustomGenerator"/>	
+	</id>
+	<property name="productName" column="PRODUCT" not-null="true" unique="true" length="10" type="string"/>
+	
+	
+	<property name="productId" column="PID" length="5" type="int"/>
+		
+		
+	<property name="productAmt" column="PAMT"  length="8" type="float"/>
+	</class>
+
+</hibernate-mapping>
