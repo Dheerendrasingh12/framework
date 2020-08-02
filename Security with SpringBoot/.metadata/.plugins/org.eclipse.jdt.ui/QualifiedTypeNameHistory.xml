@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration"/>
+<fullyQualifiedTypeName name="com.arzds.configure.SpringConfigure"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.security.crypto.password.PasswordEncoder"/>
+<fullyQualifiedTypeName name="org.springframework.security.crypto.password.NoOpPasswordEncoder"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetailsService"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetails"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.arzds.service.UserDetalsService"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding.Use"/>
+<fullyQualifiedTypeName name="com.arzds.model.User"/>
+<fullyQualifiedTypeName name="com.arzds.details.MyUserDetails"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.GrantedAuthority"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.authority.SimpleGrantedAuthority"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UsernameNotFoundException"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.EnableJpaRepositories"/>
+<fullyQualifiedTypeName name="com.arzds.config.UserRepo"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.annotation.Generated"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity"/>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
+<fullyQualifiedTypeName name="org.springframework.security.crypto.password.LdapShaPasswordEncoder"/>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.WebSecurityConfigurer"/>
+</qualifiedTypeNameHistroy>
