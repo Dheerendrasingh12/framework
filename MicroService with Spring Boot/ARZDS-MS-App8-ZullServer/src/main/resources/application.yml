@@ -1,0 +1,16 @@
+server: 
+  port: 8484
+  
+eureka: 
+    client:
+      serviceUri:
+        defaultZone: http://localhost:8761/eureka
+spring: 
+    application: 
+      name: ArzDS-Zuul-Proxy
+zuul: 
+    routes:
+       cart:
+        service-id: ArzDs-Cart-Provider
+        path: /cart-api/**
+                
