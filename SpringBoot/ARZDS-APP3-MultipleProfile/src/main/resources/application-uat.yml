@@ -1,0 +1,5 @@
+server: 
+  port: 8014
+my: 
+  profile:  
+    code: Hello prepord

@@ -1,0 +1,37 @@
+package com.arzds.doa;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.arzds.model.Product;
+import com.arzds.repository.ProductRepo;
+
+@Component
+public class BasicDAOOperation implements CommandLineRunner {
+
+	@Autowired
+	ProductRepo repo;
+
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		repo.save(new Product(1, "PEN", 12.36));
+		repo.save(new Product(2, "Book", 15.96));
+		repo.save(new Product(4, "Gel PEN", 16.36));
+		Optional<Product> optional = repo.findById(2);
+		if (optional.isPresent())
+			System.out.println(optional.get());
+		else
+			System.out.println("No Recotd Found");
+		
+		
+		repo.findAll().forEach(System.out::println);
+		repo.deleteById(3);
+		repo.deleteAllInBatch();
+		System.exit(0);
+	}
+
+}

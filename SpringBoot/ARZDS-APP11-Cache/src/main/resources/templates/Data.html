@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="hppt://www.thymeleaf.org/">
+<head>
+<meta charset="ISO8859-1">
+<title>ARZDS</title>
+</head>
+
+<body>
+	<h3>Employee Details</h3>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th>CODE</th>
+			<th>TYPE</th>
+			<th>SALARY</th>
+			<th>ADDRESS</th>
+			<th colspan="2">OPERATION</th>
+		</tr>
+		<tr th:each="emp:${list}">
+			<td th:text="${emp.empId}"></td>
+			<td th:text="${emp.empName}"></td>
+			<td th:text="${emp.empCode}"></td>
+			<td th:text="${emp.empType}"></td>
+			<td th:text="${emp.empSal}"></td>
+			<td th:text="${emp.addr}"></td>
+			<td><a th:href="@{/employee/view/{id}(id=${emp.empId})}">VIEW</a>
+			</td>
+			<td><a th:href="@{/employee/delete/{id}(id=${emp.empId})}">DELETE</a>
+			</td>
+
+		</tr>
+	</table>
+
+	<span th:text="${msg}"></span>
+</body>
+</html>

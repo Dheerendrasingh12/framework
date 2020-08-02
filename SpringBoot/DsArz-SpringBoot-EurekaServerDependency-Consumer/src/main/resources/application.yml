@@ -1,0 +1,8 @@
+server:
+  port: 9999
+spring:
+  application:    name: ArzDs-Consumer
+Eureka:
+  client:
+    serviceUri:
+      defaultzone: http://localhost:8761/eureka

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="hppt://www.thymeleaf.org/">
+<head>
+<meta charset="ISO8859-1">
+<title>ARZDS</title>
+</head>
+<body>
+	<h3>Welcome to View One</h3>
+	<table border="2">
+		<tr>
+			<th>ID</th>
+			<td th:text="${emp.empId}"></td>
+		</tr>
+		<tr>
+			<th>NAME</th>
+			<td th:text="${emp.empName}"></td>
+		</tr>
+		<tr>
+			<th>CODE</th>
+			<td th:text="${emp.empCode}"></td>
+		</tr>
+		<tr>
+			<th>Type</th>
+			<td th:text="${emp.empType}"></td>
+		</tr>
+		<tr>
+			<th>SALARY</th>
+			<td th:text="${emp.empSal}"></td>
+		</tr>
+		<tr>
+			<th>Address</th>
+			<td th:text="${emp.addr}"></td>
+		</tr>
+	</table>
+
+</body>
+</html>

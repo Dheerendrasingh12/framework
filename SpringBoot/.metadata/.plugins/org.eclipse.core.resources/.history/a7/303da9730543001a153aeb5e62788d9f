@@ -1,0 +1,4 @@
+server.port=9998
+spring.application.name=ArzDs LBS Consumer
+eureka.client.servieruri.defaultzone=htt://localhost:8761/eureka
+eureka.instance.instance-id=${spring.application.name}:${random.value}

@@ -1,0 +1,12 @@
+my:
+  data:
+    id-num: 10
+    name: ArzDs
+    enable: 
+        costBit: 3.6
+        valid: true
+  names:
+       ArzDs
+       Arz
+       Ds       
+  

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+<body>
+	<h3>Welcome to ArzDs Page</h3>
+
+	<span th:text="${msg}"></span>
+
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Salary</th>
+		</tr>
+		<tr th:each="ob:${list}">
+			<td th:text="${ob.empId}"></td>
+			<td th:text="${ob.empName}"></td>
+			<td th:text="${ob.empSal}"></td>
+		</tr>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="hppt://www.thymeleaf.org/">
+<head>
+<meta charset="ISO8859-1">
+<title>ARZDS</title>
+</head>
+<body>
+	<h3>Please Insert below Details</h3>
+	<form action="#" method="post" th:action="@{/employee/save}"
+		th:object="${emp}">
+
+		<pre>
+		CODE :<input type="text" th:field="*{empCode}" /><br>
+		NAME :<input type="text" th:field="*{empName}" /><br>
+		Type :<select th:field="*{empType}">
+				<option value="Per">Permanent</option>
+				<option value="tmp">Temporary</option> 
+		</select><br>
+		SALARY : <select th:field="*{empSalary}">
+				<option value="15000">15000</option>
+				<option value="30000">30000</option>
+				<option value="50000">50000</option>
+				<option value="80000">80000</option>
+				<option value="100000">100000</option>
+		</select><br>
+		Addr :<textarea rows="3" cols="4" th:field="*{addr}"></textarea>
+		</pre>
+	</form>
+	<span th:text="${msg}"></span>
+</body>
+</html>

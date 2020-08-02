@@ -1,0 +1,14 @@
+server: 
+  port: 8012
+my: 
+  arzds:  
+    i_d: 12
+    value: arzds
+    listdata: 
+        -Arz
+        -DS
+        -ArzDs
+    mData:  
+      a1: 12
+      a2: 03
+      a3: 04
